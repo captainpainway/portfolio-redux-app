@@ -27,9 +27,14 @@ class App extends Component {
     const { layout, toggleSidebar } = this.props;
     const { sidebarOpen } = layout;
     const layoutClass = classNames({open : sidebarOpen});
+    const iconClass = classNames({'fa fa-chevron-up' : sidebarOpen, 'fa fa-chevron-down' : !sidebarOpen});
+    // noOverflow fixes double overflows on sidebar open;
+    const noOverflow = {
+        overflow: 'hidden'
+    };
 
     return (
-      <div className={layoutClass}>
+      <div className={layoutClass} style={noOverflow}>
         <Sidebar layout={layout} toggleSidebar={toggleSidebar} />
   	    <div className="wrap">
           <Header />
@@ -38,7 +43,9 @@ class App extends Component {
             {this.props.children}
           </div>
         </div>
-        <label className="sidebar-toggle" onClick={this.eventToggleSidebar}></label>
+        <label className="sidebar-toggle" onClick={this.eventToggleSidebar}>
+            <i ref="toggleIcon" className={iconClass} ariaHidden="true"></i>
+        </label>
       </div>
     );
   }

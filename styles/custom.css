@@ -63,49 +63,26 @@ ul.clients li {
    box-shadow:1px 1px 1px #ccc;
 }
 
-ul.clients li.goldmans-logo {
-   background: url('assets/goldmans-logo.jpg') no-repeat;
-   width:124px;
-}
-
-ul.clients li.orange-logo {
-   background: url('assets/orange-logo.jpg') no-repeat;
-   width:70px;
-}
-
-ul.clients li.tesco-logo {
-   background: url('assets/tesco-logo.jpg') no-repeat;
-   width:181px;
-}
-
-ul.clients li.timeout-logo {
-   background: url('assets/timeout-logo.jpg') no-repeat;
-   width:151px;
-}
-
-ul.clients li.wiley-logo {
-   background: url('assets/wiley-logo.jpg') no-repeat;
-   width:169px;
-}
-
-ul.clients li.covestor-logo {
-   background: url('assets/covestor-logo.jpg') no-repeat;
-   width:218px;
-}
-
-ul.clients li.shipserv-logo {
-   background: url('assets/shipserv-logo.jpg') no-repeat;
-   width:218px;
-}
-
 /**
 * Skill Boxes on Home Page
 */
 
 .skill-item {
    float:left;
-   margin: 0 3.5em 2em 0;
-   font-size:0.8em;
+   margin-bottom: 2em;
+   font-size:1rem;
+   width: 33%;
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .skill-item {
+        width: 100%;
+    }
+}
+@media (max-width: 414px) {
+    .skill-item {
+        width: 100%;
+    }
 }
 
 .skill-item h4 {
@@ -123,7 +100,6 @@ ul.clients li.shipserv-logo {
 .skill-item ul{
    list-style:none;
    padding-left:0;
-   font-size:16px;
 }
 
 .skill-item ul li {
@@ -137,20 +113,22 @@ ul.clients li.shipserv-logo {
 }
 
 .skill-item ul li em {
-   background: #1db7a9;
+   border-bottom: 1px solid #ccc;
+   border-left: 5px solid #880E4F;
+   width: 100%;
    display:inline-block;
    float:left;
-   color:#fff;
    padding:0.2em 1em 0.2em;
    margin:0.2em;
-   clear:both; 
-   font-style:normal; 
-   box-shadow:1px 1px 1px #ccc;
+   clear:both;
+   font-style:normal;
 }
 
 .skill-item ul ul li em {
-   background: #d9ead3;
-   color: #1db7a9;
+    border-bottom: 0px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #880E4F;
 }
 
 .exclaimation {

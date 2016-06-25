@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { getPortfolio } from '../api/portfolio';
+import { getResume } from '../api/resume';
 import classNames from 'classnames';
 
-class Portfolio extends Component {
+class Resume extends Component {
 
   render() {
 
-  	const portfolio = getPortfolio();
+  	const resume = getResume();
 	const RoleRows = (roles) => {
 		return roles.map((role) => {
 			return (
@@ -18,26 +18,25 @@ class Portfolio extends Component {
 		});
 	}
 
-    const PortfolioRows = portfolio.map((row) => {
-    	const classname = classNames('portfolio_item','clearfix',row.classname);
+    const ResumeRows = resume.map((row) => {
+    	const classname = classNames('resume_item','clearfix',row.classname);
         return (
             <div key={row.title} className={classname}>
-                <div className="buffer"></div>
-                <div className="row_info">
-    				<a href={row.link} target="_blank"><h2>{row.title}</h2></a>
-    				{RoleRows(row.roles)}
-                </div>
+				<a href={row.link} target="_blank"><h2>{row.title}</h2></a>
+				{RoleRows(row.roles)}
 			</div>
         )
     });
 
     return (
         <div className="posts">
-        	{PortfolioRows}
+            <h1 className="post-title">Resumé</h1>
+    	    <p><a href="#">Check out my LinkedIn</a></p>
+        	{ResumeRows}
         </div>
     );
 
   }
 }
 
-export default Portfolio;
+export default Resume;

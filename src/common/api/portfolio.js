@@ -1,102 +1,72 @@
 export function getPortfolio() {
   return [
     {
-    	link : 'http://www.goldmansachs.com',
-    	title : 'Goldman Sachs',
-    	classname : 'goldmans',
+    	link : 'http://digital.modernluxury.com/publication/?i=305966',
+    	title : 'BlueToad',
+    	classname : 'bluetoad',
     	roles : [
     		{
-    			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+    			title : 'Front-End JavaScript Developer',
+    			skills : 'JavaScript, HTML5, CSS3, PHP, PureMVC, jQuery, Git, Subversion, Jira'
+    		}
+    	]
+    },
+    {
+    	link : 'http://the11th-hour.com',
+    	title : 'The 11th Hour',
+    	classname : 'the11thhour',
+    	roles : [
+    		{
+    			title : 'WordPress Theme Development',
+    			skills : 'WordPress, PHP, MySQL, Git'
     		},
     		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Webpack'
+    			title : 'Logo Designer',
+    			skills : 'Blender 3D, Photoshop'
     		}
     	]
     },
     {
-    	link : 'http://www.libon.com/',
-    	title : 'Orange (Libon)',
-    	classname : 'orange',
+    	link : 'http://infinityconfl.com',
+    	title : 'InfinityCon',
+    	classname : 'infinitycon',
     	roles : [
     		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, WebRTC, FireFoxOS'
+    			title : 'WordPress Theme Development',
+    			skills : 'WordPress, PHP, MySQL, Git'
+    		}
+    	]
+    },
+    {
+    	link : 'https://codepen.io/captainpainway/full/gaOpYV/',
+    	title : 'NASA Image of the Day',
+    	classname : 'nasa',
+    	roles : [
+    		{
+    			title : 'Front-End Developer',
+    			skills : 'JavaScript, jQuery, CSS3, HTML5, NASA API'
     		},
+    	]
+    },
+    {
+    	link : 'http://captainpainway.github.io/flickr-search/',
+    	title : 'Flickr Search',
+    	classname : 'flickr',
+    	roles : [
     		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Grunt'
+    			title : 'Front-End Developer',
+    			skills : 'JavaScript, jQuery, CSS3, HTML5, Flickr API'
     		}
     	]
     },
     {
-    	link : 'http://www.pwul.net',
-    	title : 'Pay What You Like',
-    	classname : 'pwul',
+    	link : 'https://play.google.com/store/apps/details?id=to.the.stars',
+    	title : 'To The Stars',
+    	classname : 'tothestars',
     	roles : [
     		{
-    			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
-    		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Gulp'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.timeout.com/london/card',
-    	title : 'Timeout',
-    	classname : 'timeout',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.tesco.com/direct',
-    	title : 'Tesco Entertainment',
-    	classname : 'tesco',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://onlinelibrary.wiley.com',
-    	title : 'John Wiley and Sons',
-    	classname : 'wiley',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.covestor.com',
-    	title : 'Covestor',
-    	classname : 'covestor',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.shipserv.com',
-    	title : 'ShipServ',
-    	classname : 'shipserv',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
+    			title : 'Mobile Game Developer',
+    			skills : 'Construct2, Blender 3D, Inkscape, Audacity'
     		}
     	]
     }

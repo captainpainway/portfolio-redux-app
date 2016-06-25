@@ -5,17 +5,17 @@
 .portfolio_item {
 	left: right;
     margin: 0 0 20px 0;
-    padding:20px 20px 0 20px;
     box-shadow:1px 2px 2px #eaeaea;
     border:1px solid #eaeaea;
+	width: 45%;
+	margin: 20px;
+	float: left;
 }
 
 .portfolio_item h2 {
     font-size: 24px;
     margin: 20px 0 20px 0;
-    text-align: right;
-    padding-top: 250px;
-    text-transform:uppercase;
+    text-align: left;
     font-weight:bold;
 }
 
@@ -28,27 +28,16 @@
 .portfolio_item .role_wrapper {
     border-bottom: 1px dotted #ccc;
     position: relative;
-    margin-bottom:20px;
-}
-
-.portfolio_item .role {
-    float: left;
-    color: #1db7a9;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform:uppercase;
-    margin: 16px 10px 10px 10px;
-    opacity:0.5;
 }
 
 .portfolio_item .role_title {
-    float: right;
+    float: left;
     font-size: 22px;
     font-weight: bold;
     margin: 10px;
-    color: #1db7a9;
+    color: #880E4F;
     line-height: 24px;
-    text-align: right;
+    text-align: left;
 }
 
 .portfolio_item span.role_skills {
@@ -56,42 +45,40 @@
     color: #a6a6a6;
 }
 
+.portfolio_item .buffer {
+	height: 250px;
+}
+
+.portfolio_item .row_info {
+	background: #fff;
+	padding: 10px 20px 20px 20px;
+}
+
 /**
 * Individual
 */
 
-.goldmans {
-	background:#fff url(assets/goldmans.jpg) top no-repeat;
+.bluetoad {
+	background:#fff url(assets/bluetoad-logo.png) 50% 25% no-repeat;
 }
 
-.orange {
-	background:#fff url(assets/orange.jpg) top no-repeat;
+.infinitycon {
+	background:#fff url(assets/infinitycon.png) top no-repeat;
+	background-size: cover;
 }
 
-.tesco {
-	background:#fff url(assets/tesco.png) top no-repeat;
+.the11thhour {
+	background:#fff url(assets/11thhourlogo.png) 50% 10% no-repeat;
 }
 
-.timeout {
-	background:#fff url(assets/timeout.png) top no-repeat;
+.nasa {
+	background:#fff url(assets/nasa-image.png) 50% 70% no-repeat;
 }
 
-.wiley {
-	background:#fff url(assets/wiley.png) top no-repeat;
+.flickr {
+	background:#fff url(assets/flickr-search.png) right top no-repeat;
 }
 
-.hellas {
-	background:#fff url(assets/hellas.png) top no-repeat;
-}
-
-.shipserv {
-	background:#fff url(assets/shipserv.png) top no-repeat;
-}
-
-.covestor {
-	background:#fff url(assets/covestor.png) top no-repeat;
-}
-
-.pwul {
-	background:#fff url(assets/pwul.jpg) top no-repeat;
+.tothestars {
+	background:#fff url(assets/tothestars.png) 50% 100% no-repeat;
 }

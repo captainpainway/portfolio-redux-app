@@ -1,0 +1,61 @@
+/**
+* Layout styles
+*/
+
+.resume_item {
+	left: right;
+    margin: 0 0 20px 0;
+    padding:20px 20px 0 20px;
+    box-shadow:1px 2px 2px #eaeaea;
+    border:1px solid #eaeaea;
+}
+
+.resume_item h2 {
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+    text-align: left;
+    /*padding-top: 250px;*/
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.resume_item h2 a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resume_item .role_wrapper {
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    margin-bottom:20px;
+}
+
+.resume_item .role {
+    float: left;
+    color: #880E4F;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin: 16px 10px 10px 10px;
+    opacity:0.5;
+}
+
+.resume_item .role_title {
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    color: #880E4F;
+    line-height: 24px;
+    text-align: left;
+}
+
+.resume_item span.role_skills {
+    font-size: 18px;
+    color: #a6a6a6;
+}
+
+/**
+* Individual
+*/
