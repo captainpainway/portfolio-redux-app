@@ -20,10 +20,6 @@ class Sidebar extends Component {
 
     	<div className="sidebar">
 
-		  <div className="sidebar-item">
-            <div className="logo"></div>
-		  </div>
-
           <div className="social-icons">
               <a href="https://www.facebook.com/mary.staggs"><button className="si facebook"></button></a>
               <a href="https://twitter.com/CaptainPainway"><button className="si twitter"></button></a>

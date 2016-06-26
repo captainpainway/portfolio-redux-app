@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #880E4F;
+  color: #0277BD;
   opacity: 0.5;
   letter-spacing: 0;
   margin-left:0.6em;
@@ -129,44 +129,21 @@ h1, h2, h3, h4, h5, h6 {
 /* Style and "hide" the sidebar */
 .sidebar {
   position: fixed;
-  top: -89vh;
+  top: -30vh;
   bottom: 0;
   left: 0;
-  height: 89vh;
+  height: 30vh;
   width: 100vw;
   visibility: hidden;
   overflow: hidden;
   font-family: "Glacial Indifference","PT Sans", Helvetica, Arial, sans-serif;
   font-size: 1em; /* 15px */
   color: rgba(255,255,255,.6);
-  background-color: #202020;
-  background-image: url('./assets/computer.jpg');
+  background-color: #0277BD;
+  /*background-image: url('./assets/purple-abstract-blur-bokeh.jpg');*/
   background-size: cover;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
-}
-@media (max-width: 768px) and (orientation: portrait) {
-  .sidebar {
-    font-size: 1em; /* 14px */
-    top: -93vh;
-    height: 93vh;
-  }
-}
-
-@media (max-width: 768px) and (orientation: landscape) {
-  .sidebar {
-    font-size: 1em; /* 14px */
-    top: -75vh;
-    height: 75vh;
-  }
-}
-
-@media (max-width: 414px) {
-  .sidebar {
-    font-size: 1em; /* 14px */
-    top: -90vh;
-    height: 90vh;
-  }
 }
 
 /* Sidebar content */
@@ -222,35 +199,6 @@ a.sidebar-nav-item:focus {
     padding: 0rem;
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
-  .sidebar-nav-item {
-    width: 100% ;
-  }
-    .sidebar-item .logo {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media (max-width: 768px) and (orientation: landscape) {
-    .sidebar-item {
-        display: inline-block;
-    }
-    .sidebar-item .logo {
-        width: 150px;
-        height: 150px;
-        margin: 0;
-    }
-}
-
-@media (max-width: 414px) {
-    .sidebar-item .logo {
-        width: 150px;
-        height: 150px;
-        margin: 1.5rem auto 0 auto;
-    }
-}
-
 @media (max-width: 320px) {
     .sidebar-item .logo {
         margin: 1.5rem auto 0 auto;
@@ -285,7 +233,7 @@ a.sidebar-nav-item:focus {
 .open .sidebar-toggle,
 .open .sidebar-toggle {
   color: #fff;
-  background-color: #880E4F;
+  background-color: #0277BD;
 }
 
 /*.open .sidebar-toggle:active:before,
@@ -307,7 +255,7 @@ a.sidebar-nav-item:focus {
 
 .social-icons {
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
 }
 
 .si {
@@ -322,13 +270,7 @@ a.sidebar-nav-item:focus {
     transform: rotate(0deg);
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
-    .social-icons {
-        float: right;
-        margin-top: 3rem;
-        margin-right: 1rem;
-    }
-
+@media (max-width: 768px) {
     .si {
         height: 45px;
         width: 45px;
@@ -339,12 +281,6 @@ a.sidebar-nav-item:focus {
     .si {
         height: 35px;
         width: 35px;
-    }
-}
-
-@media (max-width: 375px) {
-    .social-icons {
-        margin-top: 1em;
     }
 }
 
@@ -402,45 +338,9 @@ a.sidebar-nav-item:focus {
 .open .wrap{
   z-index: 10;
   visibility: visible;
-  -webkit-transform: translateY(89vh);
-      -ms-transform: translateY(89vh);
-          transform: translateY(89vh);
-}
-
-@media (max-width: 768px) and (orientation: portrait) {
-    .open .sidebar-toggle,
-    .open .sidebar,
-    .open .wrap{
-      z-index: 10;
-      visibility: visible;
-      -webkit-transform: translateY(93vh);
-          -ms-transform: translateY(93vh);
-              transform: translateY(93vh);
-    }
-}
-
-@media (max-width: 768px) and (orientation: landscape) {
-    .open .sidebar-toggle,
-    .open .sidebar,
-    .open .wrap{
-      z-index: 10;
-      visibility: visible;
-      -webkit-transform: translateY(75vh);
-          -ms-transform: translateY(75vh);
-              transform: translateY(75vh);
-    }
-}
-
-@media (max-width: 414px) {
-    .open .sidebar-toggle,
-    .open .sidebar,
-    .open .wrap{
-      z-index: 10;
-      visibility: visible;
-      -webkit-transform: translateY(90vh);
-          -ms-transform: translateY(90vh);
-              transform: translateY(90vh);
-    }
+  -webkit-transform: translateY(30vh);
+      -ms-transform: translateY(30vh);
+          transform: translateY(30vh);
 }
 
 .sidebar-footer a{

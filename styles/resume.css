@@ -33,7 +33,7 @@
 
 .resume_item .role {
     float: left;
-    color: #880E4F;
+    color: #0277BD;
     font-size: 30px;
     font-weight: bold;
     text-transform:uppercase;
@@ -46,7 +46,7 @@
     font-size: 22px;
     font-weight: bold;
     margin: 10px;
-    color: #880E4F;
+    color: #0277BD;
     line-height: 24px;
     text-align: left;
 }

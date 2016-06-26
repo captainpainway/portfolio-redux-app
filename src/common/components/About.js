@@ -25,7 +25,7 @@ class About extends Component {
 
             <p>I have gone, in the past 10+ years, from web development hobbyist, to freelancer, to full-time front-end webdev employee. While I was still in high school I would view the source of websites in order to see how they worked. From there I created small hobby sites for myself and friends.</p>
 
-            <p>While I was in college, WorePress was released, and I began creating WordPress blogs. I found that I was not a diligent blogger, but I did love creating new themes for my sites. I turned this into a side business creating custom WordPress themes.</p>
+            <p>While I was in college, WordPress was released, and I began creating WordPress blogs. I found that I was not a diligent blogger, but I did love creating new themes for my sites. I turned this into a side business creating custom WordPress themes.</p>
 
             <p>Despite earning a Bachelor's Degree in Graphic Design, I was unsure how to parlay my experience with WordPress, HTML, CSS, and PHP into a full-time career, and began a career calculating pension benefits at Macy's. After a move to Florida I started a career in marketing, eventually achieving a management role.</p>
 
